@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .split_left {
+        height: 100%;
+        width: 30%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #3746cf;
+      }
+
+      .right {
+        right: 0;
+        height: 100%;
+        width: 69%;
+        position: fixed;
+        top: 0;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .centered img {
+        width: 150px;
+        border-radius: 50%;
+      }
+      .white {
+        padding-left: 3%;
+        color: aliceblue;
+      }
+      .whitepara {
+        color: #98989e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="split_left" style="overflow: auto">
+      <h1 class="white">Sakib Hasan Topu</h1>
+      <h3 class="white">Student</h3>
+      <img src="user.jpg" alt="Avatar" width="40%" style="padding-left: 3%" />
+      <h3 class="white" style="background-color: #343438">Personal Info</h3>
+      <h4 class="white">Email</h4>
+      <p class="whitepara">abc@gmail.com</p>
+      <h4 class="white">Phone</h4>
+      <p class="whitepara">01292321</p>
+      <h4 class="white">Instagram</h4>
+      <p class="whitepara">instagram.com/abc</p>
+      <h4 class="white">Linkedin</h4>
+      <p class="whitepara">linkedin.com/abc</p>
+      <h4 class="white">Date of birth</h4>
+      <p class="whitepara">01/02/1999</p>
+      <h4 class="white">Marital Status</h4>
+      <p class="whitepara">Unmarried</p>
+    </div>
+
+    <div class="right" style="overflow: auto">
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores
+          nemo nisi qui rem dicta pariatur, neque debitis, quos eos, quibusdam
+          eveniet voluptatum aliquid iusto. Saepe repudiandae explicabo commodi
+          perspiciatis, voluptatibus cumque eveniet quia provident temporibus
+          iusto veniam molestiae est enim ut minus voluptas ex ducimus
+          accusantium adipisci alias facilis.
+        </p>
+
+        <h1 style="color: #3746cf">Work Hisotry</h1>
+        <table>
+          <div>
+            <tr>
+              <td>2020/02/1</td>
+              <th>Student</th>
+            </tr>
+            <tr>
+              <td rowspan="">2020/02/24</td>
+              <td>
+                Graphics design
+                <ul>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>2020/02/1</td>
+              <th>Junior</th>
+            </tr>
+            <tr>
+              <td rowspan="5">2020/02/24</td>
+              <td>
+                Graphics design
+                <ul>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                </ul>
+              </td>
+            </tr>
+          </div>
+        </table>
+
+        <h1 style="color: #3746cf">Education</h1>
+
+        <h1 style="color: #3746cf">Awards</h1>
+        <h1 style="color: #3746cf">Certificates</h1>
+      </div>
+    </div>
+  </body>
+</html>
